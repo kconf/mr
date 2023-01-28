@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/neovim.git]
+checkout = vcsh clone 'git://github.com/kconf/neovim.git' 'neovim'
+update   = vcsh neovim pull
+push     = vcsh neovim push
+status   = vcsh neovim status
+gc       = vcsh neovim gc
