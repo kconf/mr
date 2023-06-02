@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/hammerspoon.git]
+checkout = vcsh clone 'git://github.com/kconf/hammerspoon.git' 'hammerspoon'
+update   = vcsh hammerspoon pull
+push     = vcsh hammerspoon push
+status   = vcsh hammerspoon status
+gc       = vcsh hammerspoon gc

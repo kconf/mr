@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/python.git]
+checkout = vcsh clone 'git://github.com/kconf/python.git' 'python'
+update   = vcsh python pull
+push     = vcsh python push
+status   = vcsh python status
+gc       = vcsh python gc

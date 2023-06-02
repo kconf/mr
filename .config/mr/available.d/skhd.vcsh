@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/skhd.git]
+checkout = vcsh clone 'git://github.com/kconf/skhd.git' 'skhd'
+update   = vcsh skhd pull
+push     = vcsh skhd push
+status   = vcsh skhd status
+gc       = vcsh skhd gc
