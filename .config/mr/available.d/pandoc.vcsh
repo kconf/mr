@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/pandoc.git]
+checkout = vcsh clone 'git://github.com/kconf/pandoc.git' 'pandoc'
+update   = vcsh pandoc pull
+push     = vcsh pandoc push
+status   = vcsh pandoc status
+gc       = vcsh pandoc gc
