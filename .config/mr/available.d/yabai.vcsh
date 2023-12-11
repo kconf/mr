@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/yabai.git]
-checkout = vcsh clone 'git://github.com/kconf/yabai.git' 'yabai'
+checkout = vcsh clone 'git@github.com:kconf/yabai.git' 'yabai'
 update   = vcsh yabai pull
 push     = vcsh yabai push
 status   = vcsh yabai status

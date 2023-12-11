@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/emacs.git]
-checkout = vcsh clone 'git://github.com/kconf/emacs.git' 'emacs'
+checkout = vcsh clone 'git@github.com:kconf/emacs.git' 'emacs'
 update   = vcsh emacs pull
 push     = vcsh emacs push
 status   = vcsh emacs status

@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/clash.git]
-checkout = vcsh clone 'git://github.com/kconf/clash.git' 'clash'
+checkout = vcsh clone 'git@github.com:kconf/clash.git' 'clash'
 update   = vcsh clash pull
 push     = vcsh clash push
 status   = vcsh clash status

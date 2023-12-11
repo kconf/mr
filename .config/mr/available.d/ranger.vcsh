@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/ranger.git]
-checkout = vcsh clone 'git://github.com/kconf/ranger.git' 'ranger'
+checkout = vcsh clone 'git@github.com:kconf/ranger.git' 'ranger'
 update   = vcsh ranger pull
 push     = vcsh ranger push
 status   = vcsh ranger status

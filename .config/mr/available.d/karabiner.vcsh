@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/karabiner.git]
-checkout = vcsh clone 'git://github.com/kconf/karabiner.git' 'karabiner'
+checkout = vcsh clone 'git@github.com:kconf/karabiner.git' 'karabiner'
 update   = vcsh karabiner pull
 push     = vcsh karabiner push
 status   = vcsh karabiner status

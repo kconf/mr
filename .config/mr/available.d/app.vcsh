@@ -1,5 +1,5 @@
 [$HOME/.config/vcsh/repo.d/app.git]
-checkout = vcsh clone 'git://github.com/kconf/app.git' 'app'
+checkout = vcsh clone 'git@github.com:kconf/app.git' 'app'
 update   = vcsh app pull
 push     = vcsh app push
 status   = vcsh app status
