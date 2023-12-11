@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/pass.git]
+checkout = vcsh clone 'git://github.com/kconf/pass.git' 'pass'
+update   = vcsh pass pull
+push     = vcsh pass push
+status   = vcsh pass status
+gc       = vcsh pass gc

@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/xray.git]
+checkout = vcsh clone 'git://github.com/kconf/xray.git' 'xray'
+update   = vcsh xray pull
+push     = vcsh xray push
+status   = vcsh xray status
+gc       = vcsh xray gc

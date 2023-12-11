@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/naiveproxy.git]
+checkout = vcsh clone 'git://github.com/kconf/naiveproxy.git' 'naiveproxy'
+update   = vcsh naiveproxy pull
+push     = vcsh naiveproxy push
+status   = vcsh naiveproxy status
+gc       = vcsh naiveproxy gc
